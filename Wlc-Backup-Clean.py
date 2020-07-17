@@ -5,7 +5,7 @@ import datetime
 import sys
 import logging
 from netmiko import ConnectHandler as CH
-# writing file in append mode
+# writing file in append mode for  recording output from each command
 def write_file(a):
 	file1 = open('FILEPATH', "a")
 	file1.write(a)
