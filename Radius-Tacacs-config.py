@@ -1,4 +1,5 @@
 # This script is to configure pretty much anything on cisco IOS 
+# in This program it is checking if AAA config exists, if yes  then it only modifies some config items
 #!/usr/bin/python3
 from getpass import getpass
 from cryptography.fernet import Fernet
