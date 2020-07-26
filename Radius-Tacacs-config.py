@@ -9,7 +9,7 @@ import datetime
 import sys
 import logging
 from netmiko import ConnectHandler as CH
-# create Two Files first named encryption.key and p.txt
+# create Two Files first named encryption.key and password.txt
 # you can either ask user to input the password or add password to password.txt
 key_file_path = "FILEPATH_TO_encryption.key"
 p_file_path = "FILEPATH_TO_password.txt"
